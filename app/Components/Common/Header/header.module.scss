@@ -1,0 +1,17 @@
+.home {
+  display: flex;
+  align-items: center;
+  .search_bar {
+    width: 50%;
+    height: 100px;
+    align-items: center;
+    display: flex;
+    input {
+      position: absolute;
+      width: 50%;
+      height: 50px;
+      background: #f1f3f4;
+      border-radius: 4px;
+    }
+  }
+}

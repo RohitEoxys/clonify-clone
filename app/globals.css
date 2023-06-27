@@ -1,0 +1,30 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.myBorder {
+  border: 1px solid #00000026;
+  border-radius: 5px;
+}
+
+/* .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border: none !important;
+}
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+  border-radius: unset !important;
+} */
+
+@media screen and (max-width: 768px) {
+  .circle_main {
+    width: 100% !important;
+  }
+}
+.css-j204z7-MuiFormControlLabel-root {
+  margin-right: -8px;
+}
